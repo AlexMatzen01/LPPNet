@@ -1,0 +1,13 @@
+# Rust build artifacts
+/target/
+Cargo.lock
+
+# Executables
+*.exe
+*.out
+
+# Temporary files
+/tmp/
+
+# Test files
+/test/

@@ -37,6 +37,18 @@
       "symbol": null
     },
     {
+      "name": "net_tcp_send_buf",
+      "params": ["Int64", "Int64"],
+      "return_type": "Int64",
+      "symbol": null
+    },
+    {
+      "name": "net_tcp_receive_buf",
+      "params": ["Int64", "Int64", "Int64"],
+      "return_type": "Int64",
+      "symbol": null
+    },
+    {
       "name": "net_udp_bind",
       "params": ["Int64"],
       "return_type": "Int64",
@@ -58,6 +70,18 @@
       "name": "net_udp_close",
       "params": ["Int64"],
       "return_type": "Bool",
+      "symbol": null
+    },
+    {
+      "name": "net_udp_send_buf",
+      "params": ["Int64", "Int64", "Int64"],
+      "return_type": "Int64",
+      "symbol": null
+    },
+    {
+      "name": "net_udp_receive_buf",
+      "params": ["Int64", "Int64", "Int64"],
+      "return_type": "Int64",
       "symbol": null
     },
     {
