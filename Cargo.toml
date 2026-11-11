@@ -1,0 +1,12 @@
+[package]
+name = "lppnet"
+version = "1.0.0"
+edition = "2021"
+description = "Networking (TCP/UDP) package for LPPO"
+
+[lib]
+name = "lppnet"
+crate-type = ["cdylib"]
+
+[dependencies]
+once_cell = "1.17"

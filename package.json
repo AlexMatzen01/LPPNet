@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "package": {
+    "identifier": "lppnet",
+    "display_name": "LPPNet",
+    "version": "1.0.0",
+    "author": "Alexander Matzen",
+    "description": "Networking (TCP/UDP) package for LPPO",
+    "license": "MIT",
+    "repository": "",
+    "lppo_version": ">=0.1.0",
+    "dependencies": {},
+    "build": {
+      "system": "cargo",
+      "manifest": "Cargo.toml",
+      "features": [],
+      "release": true
+    }
+  }
+}

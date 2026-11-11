@@ -1,0 +1,70 @@
+{
+  "functions": [
+    {
+      "name": "net_tcp_connect",
+      "params": ["Int64"],
+      "return_type": "Int64",
+      "symbol": null
+    },
+    {
+      "name": "net_tcp_bind",
+      "params": ["Int64"],
+      "return_type": "Int64",
+      "symbol": null
+    },
+    {
+      "name": "net_tcp_accept",
+      "params": ["Int64"],
+      "return_type": "Int64",
+      "symbol": null
+    },
+    {
+      "name": "net_tcp_send",
+      "params": ["Int64", "Int64"],
+      "return_type": "Int64",
+      "symbol": null
+    },
+    {
+      "name": "net_tcp_receive",
+      "params": ["Int64"],
+      "return_type": "Int64",
+      "symbol": null
+    },
+    {
+      "name": "net_tcp_close",
+      "params": ["Int64"],
+      "return_type": "Bool",
+      "symbol": null
+    },
+    {
+      "name": "net_udp_bind",
+      "params": ["Int64"],
+      "return_type": "Int64",
+      "symbol": null
+    },
+    {
+      "name": "net_udp_send",
+      "params": ["Int64", "Int64", "Int64"],
+      "return_type": "Int64",
+      "symbol": null
+    },
+    {
+      "name": "net_udp_receive",
+      "params": ["Int64"],
+      "return_type": "Int64",
+      "symbol": null
+    },
+    {
+      "name": "net_udp_close",
+      "params": ["Int64"],
+      "return_type": "Bool",
+      "symbol": null
+    },
+    {
+      "name": "net_last_error",
+      "params": [],
+      "return_type": "Int64",
+      "symbol": null
+    }
+  ]
+}
