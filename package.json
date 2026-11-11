@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "package": {
-    "identifier": "lppnet",
+    "identifier": "LPPNet",
     "display_name": "LPPNet",
     "version": "1.0.0",
     "author": "Alexander Matzen",
